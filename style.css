@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+.navbar{
+    width: 100%;
+    background-color: #012902;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    position: sticky;
+    top: 0;
+
+}
+ .navlinks {
+      
+} 
+.navlinks li{
+    text-align: center;
+    display: inline-block;
+    width: 100px;
+    margin: 0 10px;
+    /* border: 1px solid red; */
+    padding: 8px;
+    border-radius: 1%;
+    font-family: sans-serif;
+    color: white;
+} 
+.navlinks li:hover{
+    background-color: white;
+    transition: all 1s ease;
+    cursor: pointer;
+    color: black;
+    font-weight: 600;
+}
+
+.siider{
+    width: 100%;
+
+}
+.pics img{
+    width: 100%;
+    height: 500px;
+    cursor: pointer;
+}
+
+.containBox{
+    /* border: 1px solid purple; */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px 0;
+    margin-top: -5px;
+    background-color:#F4F4F4 ;
+}
+
+.containBox .text{
+    width: 500px;
+    /* border: 1px solid black; */
+    text-align: center;
+    margin-top: 10px;
+}
+.heading1{
+    text-align: center;
+    margin: 10px 0;
+    font-family: sans-serif;
+
+}
+.containBox span{
+    color: #012902;
+    font-weight: 1000;
+}
+.containBox .text li{
+    margin-top: 10px;
+    font-size: large;
+    font-family: sans-serif;
+    font-weight: 600;
+
+}
+
+
+
+
+.containBox .contimg{
+    width: 500px;
+    /* border: 1px solid red; */
+    text-align: center;
+    margin-top: 10px;
+
+}
+.contimg img{
+    width: 50%;
+}
+
+.topplayer {
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    padding: 10px 0;
+    background-color: #F4F4F4;
+}
+.topplayer div{
+    width: 250px;
+    /* border: 1px solid black; */
+    margin: 10px 0;
+    text-align: center;
+    cursor: pointer;
+}
+.topplayer img{
+    width: 100%;
+    height: 200px;
+}
+.heading2{
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+
+
+.footer{
+    background: #012902;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    color: white;
+    }
+    .footer p{
+        margin: 10px 0;
+    }
+
